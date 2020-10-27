@@ -1,4 +1,8 @@
-### grobal install
+### demo
+
+![demo](./gif/demo.gif)
+
+### global install
 
 ts-node  
 typescript
