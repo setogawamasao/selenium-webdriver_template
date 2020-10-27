@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5" /* default */,
+    "module": "commonjs" /* default */,
+    "strict": true /* default */,
+    "esModuleInterop": true /* default */,
+    "skipLibCheck": true /* default */,
+    "forceConsistentCasingInFileNames": true /* default */
+  }
+}
