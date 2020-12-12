@@ -2,18 +2,9 @@
 
 ![demo](./gif/demo.gif)
 
-### global install
+### セットアップ
 
-ts-node  
-typescript
-
-### local install
-
-npm install selenium-webdriver --save  
-npm install @types/selenium-webdriver --save-dav
-
-- fs promisify を使うため
-  npm install @types/node
+npm install
 
 ### 起動
 
