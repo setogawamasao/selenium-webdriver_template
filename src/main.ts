@@ -18,18 +18,19 @@ const init = async () => {
 
   // ブラウザ立ち上げ
   const driver = await new Builder().withCapabilities(capabilities).build();
+  await wait(3000);
 
   // Googleへ移動
   await driver.get("https://www.google.com/");
-
-  // ロゴが表示されるまで待つ
-  await driver.wait(until.elementLocated(By.id("hplogo")), 10000);
+  await wait(3000);
 
   // 検索条件に値を入力
   await driver.findElement(By.name("q")).sendKeys("テスト");
+  await wait(3000);
 
   // フォーカスをアウトさせる
   await driver.actions().move({ x: 0, y: 0 }).perform();
+  await wait(3000);
 
   // 検索ボタンを押下
   await driver.findElement(By.name("btnK")).click();
