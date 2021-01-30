@@ -10,6 +10,11 @@ npm install
 
 npm run start
 
+### choromedriver.exe
+
+version : 88.0.4324.96
+https://chromedriver.storage.googleapis.com/index.html?path=88.0.4324.96/
+
 ### 参考
 
 - node で selenium-webdriver のテンプレ
