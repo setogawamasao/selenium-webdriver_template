@@ -42,10 +42,6 @@ const init = async () => {
 
   // ブラウザ終了
   // driver.quit();
-  // 3秒まつ
-  //await wait(3000);
-  // キーボードの入力を待つ
-  //await waitUserInput();
 };
 
 init();
