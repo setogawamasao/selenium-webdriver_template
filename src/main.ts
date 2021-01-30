@@ -36,8 +36,8 @@ const init = async () => {
   await driver.findElement(By.name("btnK")).click();
 
   // スクリーンショットをとる
-  let base64 = await driver.takeScreenshot();
-  let buffer = Buffer.from(base64, "base64");
+  const base64 = await driver.takeScreenshot();
+  const buffer = Buffer.from(base64, "base64");
   await promisify(fs.writeFile)("./screenshot/screenshot.jpg", buffer);
 
   // ブラウザ終了
