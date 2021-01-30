@@ -14,8 +14,8 @@ export const waitUserInput = () => {
 };
 
 // 指定秒数待つ
-export const wait = (value: number) => {
-  console.log(`wait ${value} ms`);
+export const wait = (value: number, comment: string) => {
+  console.log(`wait ${value} ms:${comment}`);
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(value);
